@@ -63,6 +63,7 @@
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 
 #discount-text {
@@ -112,6 +113,8 @@
 
 .place-background-color {
   background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  margin-top: 120px;
+  padding: 100px 0;
 }
 
 .text-margin {
@@ -145,7 +148,7 @@
   display: flex;
   gap: 80px;
   background: #FFF;
-  margin-top: 50px;
+  margin-top: 120px;
   margin-bottom: 50px;
 }
 
@@ -193,6 +196,11 @@
 
 .functional {
   text-align: center;
+  margin-top: 120px;
+}
+
+.portfolio {
+  margin-top: 120px;
 }
 
 #functional-p1 {
@@ -228,10 +236,90 @@
   display: flex;
   gap: 25px;
   margin-bottom: 25px;
+  padding: 48px auto;
+
 }
 
 .image-r2 {
   display: flex;
   gap: 25px;
   margin-bottom: 25px;
+}
+
+.subscribe {
+  background: rgba(255, 0, 0, 0.05);
+  margin-top: 120px;
+  padding: 80px 0;
+  margin-bottom: 120px;
+}
+
+.mail-img {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subscribe-text {
+  text-align: center;
+}
+
+.subscribe-text #sus-txt {
+  margin: 0 212px;
+}
+
+.sus-btn {
+  border: none;
+  border-radius: 50px;
+  background: red;
+  margin: 48px 336px 80px 336px;
+}
+
+.sus-btn button {
+  padding: 24px 250px;
+  color: #FFF;
+  font-size: 50px;
+  background: none;
+  max-width: 700px;
+}
+
+footer {
+  background: #070211;
+  padding: 120px 150px;
+}
+
+.contact {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+  /* margin: 120px 160px; */
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 50px auto;
+}
+
+.foot {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.foot button {
+  background: transparent;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
 }
