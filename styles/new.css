@@ -97,6 +97,7 @@
   font-size: 20px;
   font-weight: 700;
   line-height: normal;
+  background: transparent;
 }
 
 .party-flex {
@@ -126,6 +127,10 @@
   line-height: 56px;
 }
 
+.place-text {
+  text-align: center;
+}
+
 .place-text button {
   border-radius: 8px;
   background: #F00;
@@ -134,4 +139,99 @@
   text-align: center;
   font-family: Inter;
   font-size: 20px;
+}
+
+.banner-5 {
+  display: flex;
+  gap: 80px;
+  background: #FFF;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bn5-p1 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.bn5-p2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.bn5-p3 {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+#bn5-p4 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#bn5-p5 {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.functional {
+  text-align: center;
+}
+
+#functional-p1 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.functional h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+#functional-p2 {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.portfolio-text {
+  margin-top: 20px;
+}
+
+.image-row {
+  display: block;
+}
+
+.image-r1 {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.image-r2 {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
 }
